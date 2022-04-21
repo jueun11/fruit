@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  border: 1px solid red;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > div:nth-child(1) {
+  width: 5vh;
+  height: 5vh;
+  background-color: #c4c4c4;
+}
+header > nav {
+  width: 25vw;
+  height: 5vh;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+header > nav > div:nth-child(1) {
+  width: 5vh;
+  height: 5vh;
+  background-color: #c4c4c4;
+}
+header > nav > div:nth-child(2) {
+  width: 5vh;
+  height: 5vh;
+  background-color: #c4c4c4;
+}
+
+footer {
+  width: 100vw;
+  height: 7vh;
+  border: 1px solid red;
+  position: fixed;
+  bottom: 0;
+}
+
+main {
+  width: 90vw;
+  height: 200vh;
+}/*# sourceMappingURL=template.css.map */
