@@ -37,9 +37,12 @@ header{
 footer {
   width: 100vw;
   height: 7vh;
-  border: 1px solid red;
+  // border: 1px solid red;
   position: fixed;
   bottom: 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  box-shadow: 0vh 0vh 1vh rgb(0, 0, 0,0.3);
 }
 main{
   width: 90vw;
