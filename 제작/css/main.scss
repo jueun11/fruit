@@ -35,7 +35,6 @@ article{
     width: 100vw;
     display: flex;
     margin-top: 1.5vh;
-    overflow: hidden;
     margin-left: 10vw;
 
     //글 밑 사진과 글 영역 시작
@@ -107,6 +106,7 @@ article{
 }
 
 .bar {
+  width: 100vw;
   margin-top: 5vh;
 }
 

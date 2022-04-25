@@ -57,6 +57,7 @@ footer {
 
 main {
   width: 100vw;
+  overflow: hidden;
 }
 
 h2 {
