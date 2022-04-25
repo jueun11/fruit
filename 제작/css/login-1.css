@@ -58,7 +58,6 @@ header > p {
 
 main {
   margin-top: 5vh;
-  border: 1px solid wheat;
 }
 main > div:nth-child(1) {
   width: 80vw;
@@ -90,7 +89,33 @@ main > div:nth-child(2) > h2 {
   font-size: 1.3rem;
 }
 
-section {
-  width: 90vw;
+.line::before {
+  content: "";
+  flex-grow: 1;
+  /* margin: 0vw 3vw; */
+  background-color: #c4c4c4;
+  height: 1px;
+}
+
+.line::after {
+  content: "";
+  flex-grow: 1;
+  /* margin: 0vw 3vw; */
+  background-color: #c4c4c4;
+  height: 1px;
+}
+
+.line > p {
+  margin: 2vw;
+}
+
+.line {
+  width: 80vw;
+  display: flex;
   justify-content: center;
+  margin-top: 2vh;
+  align-items: center;
+}
+.line > p {
+  font-size: 0.7rem;
 }/*# sourceMappingURL=login-1.css.map */
