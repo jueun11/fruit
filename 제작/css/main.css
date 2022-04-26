@@ -92,8 +92,41 @@ article > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
 
 section {
   width: 90vw;
-  height: 60vh;
   margin-top: 5vh;
   border: 1px solid red;
   z-index: -1;
+}
+section > div:nth-child(2) {
+  margin-top: 3vh;
+}
+
+#one {
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+}
+#one > div:nth-child(1) > p {
+  width: 40vw;
+}
+#one > div:nth-child(2) > p {
+  width: 40vw;
+}
+
+.poto {
+  width: 40vw;
+  height: 40vw;
+  background-color: #c4c4c4;
+  border-radius: 15px;
+}
+
+#two {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+}
+#two > div:nth-child(1) > p {
+  width: 40vw;
+}
+#two > div:nth-child(2) > p {
+  width: 40vw;
 }/*# sourceMappingURL=main.css.map */
