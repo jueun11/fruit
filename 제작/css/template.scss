@@ -1,8 +1,7 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 #root{
   overflow: hidden;
-  //히든을 하면 막 화면 작게햇을때 안보이고..(반응형 전체화면에서 , f12모바일모드 갓을때 오른쪽이 잘립니다. 모바일 전환후 새로고침해야 제대로보입니다)
-  //히든을 안하자니 상하단바 고정이 안됩니다
+
   z-index: 0;
 }
 header{
@@ -15,12 +14,23 @@ header{
   justify-content: space-between;
   align-items: center;
   z-index: 5;
-
-  &>div:nth-child(1){
-    width: 5vh;
+  &>div{
+    width: 70vw;
+    border: 1px solid rebeccapurple;
     height: 5vh;
-    background-color: #c4c4c4;
+    display: flex;
+    align-items: center;
+    &>div:nth-child(1){
+      width: 5vh;
+      height: 5vh;
+      background-color: #c4c4c4;
+    }
+    &>h1{
+      margin-left: 2vw;
+    }
+    
   }
+
   &>nav {
     width: 25vw;
     height: 5vh;
@@ -56,7 +66,9 @@ main{
   width: 100vw;
   overflow: hidden;
 }
-
+h1{
+  font-size: 1.2rem;
+}
 h2 {
   font-size: 1rem;
   color: #c4c4c4;

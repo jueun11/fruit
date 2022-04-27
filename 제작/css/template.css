@@ -20,10 +20,20 @@ header {
   align-items: center;
   z-index: 5;
 }
-header > div:nth-child(1) {
+header > div {
+  width: 70vw;
+  border: 1px solid rebeccapurple;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+header > div > div:nth-child(1) {
   width: 5vh;
   height: 5vh;
   background-color: #c4c4c4;
+}
+header > div > h1 {
+  margin-left: 2vw;
 }
 header > nav {
   width: 25vw;
@@ -58,6 +68,10 @@ footer {
 main {
   width: 100vw;
   overflow: hidden;
+}
+
+h1 {
+  font-size: 1.2rem;
 }
 
 h2 {
