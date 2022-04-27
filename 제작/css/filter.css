@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  align-items: flex-end;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.line {
+  width: 100vw;
+  height: 1vh;
+  border-top: 1px solid #c4c4c4;
+}
+
+main {
+  width: 100vw;
+  height: 80vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  flex-direction: column;
+}
+main > div:nth-child(1) {
+  height: 7vh;
+  margin-top: 3vh;
+  display: flex;
+  justify-content: space-between;
+  width: 90vw;
+}
+main > div:nth-child(1) > h2 {
+  color: #c4c4c4;
+}
+main > div:nth-child(1) > div:nth-child(2) {
+  width: 5vh;
+  height: 5vh;
+  background: #c4c4c4;
+}
+
+#one {
+  width: 90vw;
+  height: 20vh;
+  background-color: #c4c4c4;
+}/*# sourceMappingURL=filter.css.map */
