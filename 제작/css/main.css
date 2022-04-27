@@ -93,7 +93,6 @@ article > div:nth-child(2) > div:nth-child(2) > div:nth-child(3) {
 section {
   width: 90vw;
   margin-top: 5vh;
-  border: 1px solid red;
   z-index: -1;
 }
 section > div:nth-child(2) {
@@ -120,6 +119,7 @@ section > div:nth-child(2) {
 }
 
 #two {
+  margin-top: 3vh;
   width: 90vw;
   display: flex;
   justify-content: space-between;
@@ -129,4 +129,27 @@ section > div:nth-child(2) {
 }
 #two > div:nth-child(2) > p {
   width: 40vw;
+}
+
+#ad-1 {
+  margin-top: 7vh;
+  width: 90vw;
+  height: 8vh;
+  border-radius: 15px;
+  border: 1px solid #c4c4c4;
+  padding: 2vh;
+  display: flex;
+  align-items: center;
+}
+
+#ad-2 {
+  margin-top: 3vh;
+  width: 90vw;
+  height: 8vh;
+  border-radius: 15px;
+  border: 1px solid #c4c4c4;
+  padding: 2vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: 13vh;
 }/*# sourceMappingURL=main.css.map */
