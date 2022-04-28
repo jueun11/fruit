@@ -1,8 +1,13 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+*{margin: 0; padding: 0; box-sizing: border-box;
+}
 #root{
   overflow: hidden;
-
   z-index: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("bg.svg");
+  // background-image: url("/markup/img/bg.svg");
+  // 템플릿에서는 main에 높이값이 없어서 이미지가 나오지 않는다
 }
 header{
   width: 100vw;
@@ -14,6 +19,7 @@ header{
   justify-content: space-between;
   align-items: center;
   z-index: 5;
+  padding: 5vw;
   &>div{
     width: 70vw;
     border: 1px solid rebeccapurple;

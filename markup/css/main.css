@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+#root {
+  background-size: contain;
+}
+
 main {
   width: 100vw;
   display: flex;

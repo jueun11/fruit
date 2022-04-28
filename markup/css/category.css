@@ -5,7 +5,7 @@ main {
 }
 
 section {
-  margin-top: 20vh;
+  margin-top: 25vh;
   display: grid;
   gap: 5vw;
   grid-template-rows: 13vh 13vh 13vh 13vh;

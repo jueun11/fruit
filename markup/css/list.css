@@ -1,0 +1,47 @@
+#root {
+  overflow: hidden;
+}
+
+main {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#filter {
+  width: 90vw;
+  height: 5vh;
+  margin-top: 25vh;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  position: absolute;
+  left: 10vw;
+  background-color: #c4c4c4;
+  overflow: hidden;
+}
+
+#container {
+  margin-top: 35vh;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+}
+#container > div:nth-child(1) {
+  width: 90vw;
+  display: flex;
+  justify-content: flex-end;
+}
+section {
+  margin-top: 2vh;
+  margin-bottom: 10vh;
+  width: 90vw;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  gap: 5vw;
+  grid-template-rows: 30vh 30vh;
+}
+section > div {
+  background-color: #c4c4c4;
+}/*# sourceMappingURL=list.css.map */

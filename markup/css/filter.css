@@ -6,10 +6,10 @@
 
 #root {
   width: 100vw;
-  height: 100vh;
-  background-color: gray;
   display: flex;
-  align-items: flex-end;
+  background-image: url("/markup/image/bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h2 {
@@ -20,11 +20,12 @@ h2 {
   width: 100vw;
   height: 1vh;
   border-top: 1px solid #c4c4c4;
+  margin: 3vh;
 }
 
 main {
   width: 100vw;
-  height: 80vh;
+  margin-top: 10vh;
   background-color: white;
   display: flex;
   align-items: center;
@@ -33,23 +34,46 @@ main {
   flex-direction: column;
 }
 main > div:nth-child(1) {
+  width: 100vw;
   height: 7vh;
   margin-top: 3vh;
   display: flex;
   justify-content: space-between;
-  width: 90vw;
+  border-bottom: 1px solid #c4c4c4;
 }
 main > div:nth-child(1) > h2 {
   color: #c4c4c4;
+  margin-left: 5vw;
 }
 main > div:nth-child(1) > div:nth-child(2) {
   width: 5vh;
   height: 5vh;
   background: #c4c4c4;
+  margin-right: 5vw;
 }
 
 #one {
+  margin-top: 3vh;
   width: 90vw;
   height: 20vh;
+  background-color: #c4c4c4;
+}
+
+#two {
+  width: 90vw;
+  height: 20vh;
+  background-color: #c4c4c4;
+}
+
+#three {
+  width: 90vw;
+  height: 7vh;
+  background-color: #c4c4c4;
+}
+
+#selectBt {
+  margin-top: 5vh;
+  width: 90vw;
+  height: 7vh;
   background-color: #c4c4c4;
 }/*# sourceMappingURL=filter.css.map */
