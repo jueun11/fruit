@@ -58,7 +58,7 @@ main{
   z-index: 1;
   &>div:nth-child(1){
     width: 100vw;
-    height: 25vh;
+    height: 22vh;
     background-color: #ccc;
     
   }
@@ -67,8 +67,8 @@ main{
   // }
 }
 #profileImg{
-  width: 25vh;
-  height: 25vh;
+  width: 20vh;
+  height: 20vh;
   background-color: #e0e0e0;
   border-radius: 50%;
   top: 12vh;
@@ -80,15 +80,35 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid brown;
-  top: 40vh;
+  // border: 1px solid brown;
+  top: 33vh;
   position: absolute;
   z-index: 2;
 }
 
 #name{
   width: 20vw;
-  height: 5vh;
+  height: 4vh;
   background-color: #fff;
 }
+#number{
+  width: 80vw;
+  height: 10vh;
+  background-color: #ccc;
+  margin-top: 3vh;
+}
 
+#viewed{
+  margin-left: 5vw;
+  width: 95vw;
+  height: 15vh;
+  background-color: #ccc;
+  margin-top: 3vh;
+}
+#etc{
+  width: 90vw;
+  height: 20vh;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-top: 2vh;
+}
