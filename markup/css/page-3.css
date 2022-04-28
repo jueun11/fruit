@@ -66,5 +66,12 @@ main > div:nth-child(2) {
   width: 90vw;
   height: 50vh;
   background-color: #ccc;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
+}
+
+#ad {
+  width: 100vw;
+  margin-bottom: 15vh;
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=page-3.css.map */
