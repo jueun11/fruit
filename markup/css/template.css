@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+:root {
+  --color-1:#C30000;
+  --color-2:#621212;
+  --color-3:#705252;
+  --color-4:#BCA1A1;
+  --color-5:#3CB371;
+  --color-5:#fff;
+}
+
 #root {
   overflow: hidden;
   z-index: 0;
@@ -76,6 +85,7 @@ main {
 
 h1 {
   font-size: 1.2rem;
+  color: #ccc;
 }
 
 h2 {
