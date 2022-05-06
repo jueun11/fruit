@@ -10,9 +10,10 @@
 #root{
   width: 100vw;
   height: 100vh;
-  background-image: url('/fruit-project/markup/img/orangecocktail.jpg');
+  background-image: url('/markup/img/orangecocktail.jpg');
   background-position: center center;
   background-size: cover;
+  position: relative;
   &>div{
     width: 100vw;
     height: 100vh;
@@ -111,4 +112,21 @@ main {
     &>p{
       font-size: 0.7rem;
     }
+}
+
+#login-pop-up {
+  // width: 80vw;
+  // height: 80vh;
+  position: absolute;
+  background-color: #fff;
+  top: 10vh;
+  left: 10vw;
+}
+#singup-pop-up {
+  // width: 80vw;
+  // height: 80vh;
+  position: absolute;
+  background-color: salmon;
+  top: 10vh;
+  left: 10vw;
 }

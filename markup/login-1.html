@@ -35,5 +35,85 @@
       </footer>
     </div>
   </div>
+
+  <div id="login-pop-up">
+    
+  </div>
+  <div id="singup-pop-up"></div>
+  
+
+  <script>
+    const loginPage = document.getElementById('login-pop-up');
+    // loginPage.style.display = "none";
+
+    let opacityValue = 0;
+
+    const signupPage = document.getElementById('singup-pop-up');
+    signupPage.style.opacity = 0;
+    const main = document.querySelector('main');
+    console.log(main);
+    const loginBtn = main.children[0];
+    console.log(loginBtn);
+    console.dir(loginBtn);
+    const singupBtn = main.children[1];
+    console.log(singupBtn);
+    const root = document.getElementById('root');
+    const out = root.children[0];
+    
+    
+    
+    loginPage.style.opacity = 0;
+    
+    loginBtn.addEventListener('click',function(){
+      let fadeIn = setInterval(function(){
+        loginPage.style.width = "80vw";
+        loginPage.style.height = "80vh";
+        
+        
+        if(opacityValue<1){
+          // alert('dg');
+          opacityValue = opacityValue + 0.1;
+          loginPage.style.opacity = opacityValue;
+        }
+        else{
+            clearInterval(fadeIn);
+          }
+      },10);
+
+      
+    });
+    
+    out.addEventListener('click',function(){
+      loginPage.style.width = "0vw";
+      loginPage.style.height = "0vh";
+      signupPage.style.width = "0vw";
+      signupPage.style.height = "0vh"
+      opacityValue = 0;
+      
+    });
+    
+    
+
+    signupPage.style.opacity = 0;
+
+    singupBtn.addEventListener('click',function(){
+      let fadeIn = setInterval(function(){
+        signupPage.style.width = "80vw";
+        signupPage.style.height = "80vh";
+
+
+        if(opacityValue<1){
+          // alert('dg');
+          opacityValue = opacityValue + 0.1;
+          signupPage.style.opacity = opacityValue;
+        }
+        else{
+            clearInterval(fadeIn);
+          }
+      },10);
+    });
+
+    //나가는 터치 영역
+  </script>
 </body>
 </html>
